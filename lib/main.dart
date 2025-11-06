@@ -7,7 +7,7 @@ void main()async {
 
   await Hive.initFlutter();
 
-  await Hive.openBox(kNoteBox);
+  await Hive.openBox(kNotesBox);
   runApp(const NotesApp());
 }
 
